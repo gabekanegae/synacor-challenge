@@ -1,0 +1,326 @@
+
+[6068]> test string
+[6080]> self-test FAILED!!
+[6099]>  all tests pass|
+[6116]> complete
+[6142]> Foothills
+[6152]> You find yourself standing at the base of an enormous mountain.  At its base to the north, there is a massive doorway.  A sign nearby reads "Keep out!  Definitely no treasure within!"
+[6336]> doorway
+[6344]> south
+[6350]> FoothillsJAs you begin to leave, you feel the urge for adventure pulling you back...
+[6435]> north
+[6441]> Dark cave
+[6451]> This seems to be the mouth of a deep cave.  As you peer north into the darkness, you think you hear the echoes of bats deeper within.
+[6585]> north
+[6591]> south
+[6597]> Dark cave[The cave is somewhat narrow here, and the light from the doorway to the south is quite dim.
+[6699]> north
+[6705]> south
+[6711]> Dark cave
+[6721]> The cave acoustics dramatically change as you find yourself at a legde above a large chasm.  There is barely enough light here to notice a rope bridge leading out into the dark emptiness.
+[6909]> bridge
+[6916]> south
+[6922]> Rope bridgeyThis rope bridge creaks as you walk along it.  You aren't sure how old it is, or whether it can even support your weight.
+[7056]> continue
+[7065]> back
+[7070]> Falling through the air!
+[7095]> As you continue along the bridge, it snaps!  You try to grab the bridge, but it evades your grasp in the darkness.  You are plummeting quickly downward into the chasm...
+[7265]> down
+[7270]> Moss cavern
+[7282]> You are standing in a large cavern full of bioluminescent moss.  It must have broken your fall!  The cavern extends to the east and west; at the west end, you think you see a passage leading out of the cavern.
+[7492]> west
+[7497]> east
+[7502]> Moss cavern`You are standing in a large cavern full of bioluminescent moss.  The cavern extends to the west.
+[7611]> west
+[7616]> Moss cavern
+[7628]> You are standing in a large cavern full of bioluminescent moss.  The cavern extends to the east.  There is a crevise in the rocks which opens into a passage.
+[7786]> east
+[7791]> passage
+[7799]> Passage
+[7807]> You are in a crevise on the west wall of the moss cavern.  A dark passage leads further west.  There is a ladder here which leads down into a smaller, moss-filled cavern below.
+[7984]> cavern
+[7991]> ladder
+[7998]> darkness
+[8007]> Passage9It is pitch black.  You are likely to be eaten by a grue.KYou feel that your light source is more than sufficient to keep grues away.
+[8149]> continue
+[8158]> back
+[8163]> Twisty passages{You are in a maze of twisty little passages, all dimly lit by more bioluminescent moss.  There is a ladder here leading up.
+[8303]> ladder
+[8310]> north
+[8316]> south
+[8322]> east
+[8327]> west
+[8332]> Twisty passages7You are in a twisty maze of little passages, all alike.
+[8404]> north
+[8410]> south
+[8416]> west
+[8421]> Twisty passages7You are in a maze of little twisty passages, all alike.
+[8493]> north
+[8499]> south
+[8505]> east
+[8510]> Twisty passages|You are in a maze of alike little passages, all twisty.||The passage to the east looks very dark; you think you hear a Grue.
+[8651]> north
+[8657]> south
+[8663]> west
+[8668]> east
+[8673]> Twisty passages7You are in a little maze of twisty passages, all alike.
+[8745]> north
+[8751]> south
+[8757]> east
+[8762]> Twisty passages
+[8778]> You are in a twisty alike of little passages, all maze.||The east passage appears very dark; you feel likely to be eaten by a Grue.
+[8910]> north
+[8916]> south
+[8922]> west
+[8927]> east
+[8932]> Twisty passages7You are in a maze of alike twisty passages, all little.
+[9004]> north
+[9010]> east
+[9015]> south
+[9021]> Twisty passages7You are in a maze of twisty little passages, all alike.
+[9093]> west
+[9098]> Twisty passages7You are in a maze of twisty little passages, all alike.
+[9170]> west
+[9175]> Twisty passages7You are in a twisty maze of little passages, all alike.
+[9247]> north
+[9253]> south
+[9259]> Dark passagerYou are in a narrow passage.  There is darkness to the west, but you can barely see a glowing opening to the east.
+[9387]> west
+[9392]> east
+[9397]> Dark passage"You are in a dark, narrow passage.
+[9445]> east
+[9450]> west
+[9455]> Dark passage"You are in a dark, narrow passage.
+[9503]> east
+[9508]> west
+[9513]> Dark passagedYou are in a dark, narrow passage.  To the west, you spot some vegetation where the passage expands.
+[9627]> east
+[9632]> west
+[9637]> Ruins
+[9643]> You stand in a large cavern with a huge ruin to the north, overgrown by plant life.  There is a large stone archway to the north acting as the doorway to the ruined complex.  A crevice in the rock to the east leads to an alarmingly dark passageway.
+[9892]> east
+[9897]> north
+[9903]> Ruins
+[9909]> You are in the once-opulent foyer of a massive ruined complex.  There is a door to the south leading to the overgrowth outside and stairs to the north which lead into a larger hall.
+[10091]> north
+[10097]> south
+[10103]> Ruins
+[10109]> You stand in the massive central hall of these ruins.  The walls are crumbling, and vegetation has clearly taken over.  Rooms are attached in all directions.  There is a strange monument in the center of the hall with circular slots and unusual symbols.  It reads:||_ + _ * _^2 + _^3 - _ = 399
+[10403]> north
+[10409]> south
+[10415]> east
+[10420]> west
+[10425]> Ruins
+[10431]> Because it has been so well-protected, this room hardly shows signs of decay.  The walls are covered in elaborate murals and decorated with precious metals and stones.
+[10599]> south
+[10605]> Ruins
+[10611]> You stand in what seems to have once been a dining hall; broken tables and pottery are scattered everywhere.  A staircase here leads down.
+[10750]> down
+[10755]> west
+[10760]> RuinszThis seems to be a kitchen; there are brick stoves and shelves along the wall.  Everything here has fallen into disrepair.
+[10889]> up
+[10892]> Ruins
+[10898]> You find yourself in what was once the living quarters for the complex.  Many smaller rooms which once had walls to divide them now lay in disarray.  There is a staircase up here.
+[11078]> up
+[11081]> east
+[11086]> Ruins
+[11092]> This was long ago a lavish throne room.  Dried-up fountains and crumbling statues line the walls, and the carved stone throne in the center of the room is falling apart.
+[11262]> down
+[11267]> Synacor Headquarters
+[11288]> You stand in the lobby of what appears to be a really fun place to work!  Sadly, there doesn't seem to be anyone around at the moment, so you make a note to call them later.  The bookshelf here looks like it might have something interesting in it, though.
+[11544]> outside
+[11552]> Synacor Headquarters
+[11573]> It's a warm, sunny day!  While the breeze from Lake Erie is certainly refreshing, you don't see anything here that will help you with your quest.
+[11719]> inside
+[11726]> Beach
+[11732]> This is a sandy beach in a cove on some tropical island.  It is raining.  The ocean is to your south, and heavy foliage is to your north; the beach extends west and east.
+[11903]> west
+[11908]> east
+[11913]> north
+[11919]> Beach
+[11925]> This is a sandy beach in a cove on some tropical island.  It is raining.  To your west is an embankment of the cove which looks too steep to climb.  The beach extends to the east, and there is dense foliage to the north.  The ocean to the south seems uninviting.
+[12188]> east
+[12193]> north
+[12199]> Beach
+[12205]> This is a sandy beach in a cove on some tropical island.  It is raining.  The steep cove embankment to your east blocks your path, and the ocean waters here look unsafe.  The beach extends to the west, and there is dense foliage to the north.
+[12448]> west
+[12453]> north
+[12459]> Tropical Island
+[12475]> The large trees here seem to be protecting you from the rain.  As you push through the undergrowth, you can hear birds chirping overhead.  There is a steep rock face to your west blocking your path.
+[12674]> north
+[12680]> south
+[12686]> east
+[12691]> Tropical IslandzThe east embankment of the cove towers over you.  It produces a small waterfall here which cascades excitedly into a pool.
+[12830]> north
+[12836]> south
+[12842]> west
+[12847]> Tropical Island
+[12863]> The embankment of the cove come toegher here to your east and west.  Between these tall rock faces, there is a narrow, overgrown path leading north.  You hear waves lapping up on a beach through the dense vegetation to your south.
+[13094]> north
+[13100]> south
+[13106]> Tropical Island
+[13122]> You are on a narrow path between two steep rock faces which look like they have been here for thousands of years.  Rain trickles down through the vegetation and moss, and through the leaves you can occasionally see a sliver of light hundreds of feet above you where the rock walls end.
+[13408]> north
+[13414]> south
+[13420]> Tropical Island
+[13436]> The narrow path slopes downward to the north and leads to the mouth of a small cave.  A sign nearby reads "Treasure Vault Access", but different handwriting has crossed this out and written "Lair of Horrible Monster!  All non-pirates keep out!".
+[13682]> north
+[13688]> south
+[13694]> Tropical Cave
+[13708]> You stand at the entrance to a natural cave which looks like it hasn't been visited in quite some time.  Light pours in through the opening to the south, while fireflies light the path further into the cave to the north.
+[13929]> north
+[13935]> south
+[13941]> Tropical CavezFireflies slowly drift around you and light the tunnel, which seems to get brighter to the south, but dimmer to the north.
+[14078]> north
+[14084]> south
+[14090]> Tropical Cave
+[14104]> The cave is a little wider here.  You find the cobweb-encrusted remains of a small camp, and although you don't suspect the broken pieces of tables and chairs will prove useful to your quest, the fireflies seem to like using the debris as a shelter.  A passageway leads north and south, and there is an alcove to the east.
+[14427]> north
+[14433]> south
+[14439]> east
+[14444]> Tropical Cave Alcove
+[14465]> At the back of this alcove, there is a small table, a chair, and a broken lantern.  It looks like this space was used much more recently than the camp to the west.
+[14629]> west
+[14634]> Tropical CavehThis tunnel slopes deeper underground to the north, but the fireflies are all around to light your path.
+[14753]> north
+[14759]> south|Vault Lock
+[14776]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting a '*' symbol.
+[14905]> east
+[14910]> south|Vault Lock
+[14927]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting the number '8'.
+[15058]> east
+[15063]> south
+[15069]> west|Vault Lock
+[15085]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting a '-' symbol.
+[15214]> east
+[15219]> south
+[15225]> west|Vault Door
+[15241]> You stand before the door to the vault; it has a large '30' carved into it.  Affixed to the wall near the door, there is a running hourglass which never seems to run out of sand.||The floor of this room is a large mosaic depicting the number '1'.
+[15488]> south
+[15494]> west
+[15499]> vault|Vault Lock
+[15516]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting the number '4'.
+[15647]> north
+[15653]> east
+[15658]> south|Vault Lock
+[15675]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting a '*' symbol.
+[15804]> north
+[15810]> east
+[15815]> south
+[15821]> west|Vault Lock
+[15837]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting the number '11'.
+[15969]> north
+[15975]> east
+[15980]> south
+[15986]> west|Vault Lock
+[16002]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting a '*' symbol.
+[16131]> north
+[16137]> south
+[16143]> west|Vault Lock
+[16159]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting a '+' symbol.
+[16288]> north
+[16294]> east
+[16299]> south|Vault Lock
+[16316]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting the number '4'.
+[16447]> north
+[16453]> east
+[16458]> south
+[16464]> west|Vault Lock
+[16480]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting a '-' symbol.
+[16609]> north
+[16615]> east
+[16620]> south
+[16626]> west|Vault Lock
+[16642]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting the number '18'.
+[16774]> north
+[16780]> south
+[16786]> west
+[16791]> Vault Antechamber
+[16809]> You are in the antechamber to a grid of rooms that control the door to the vault.  You notice the number '22' is carved into the orb's pedestal.
+[16954]> north
+[16960]> east
+[16965]> south|Vault Lock
+[16982]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting a '-' symbol.
+[17111]> north
+[17117]> east
+[17122]> west|Vault Lock
+[17138]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting the number '9'.
+[17269]> north
+[17275]> east
+[17280]> west|Vault Lock
+[17296]> You are in a grid of rooms that control the door to the vault.||The floor of this room is a large mosaic depicting a '*' symbol.
+[17425]> north
+[17431]> west
+[17436]> Vault
+[17442]> This vault contains incredible riches!  Piles of gold and platinum coins surround you, and the walls are adorned with topazes, rubies, sapphires, emeralds, opals, dilithium crystals, elerium-115, and unobtainium.
+[17655]> leave
+[17661]> Fumbling around in the darknesscWithout a source of light, you have become hopelessly lost and are fumbling around in the darkness.
+[17793]> forward
+[17801]> back
+[17806]> Fumbling around in the darkness^You can't seem to find your way.  However, you do think you hear low growling in the distance.
+[17933]> run
+[17937]> investigate
+[17949]> Panicked and lostIThe growling is getting louder.  Did I mention there are Grues down here?
+[18041]> run
+[18045]> wait
+[18050]> hide
+[18055]> eaten
+[18062]> tablet
+[18069]> The tablet seems appropriate for use as a writing surface but is unfortunately blank.  Perhaps you should USE it as a writing surface...
+[18206]> empty lantern{The lantern seems to have quite a bit of wear but appears otherwise functional.  It is, however, sad that it is out of oil.
+[18344]> lanternsThe lantern seems to have quite a bit of wear but appears otherwise functional.  It is off but happily full of oil.
+[18468]> lit lanternWThe lantern seems to have quite a bit of wear.  It is lit and producing a bright light.
+[18568]> can-This can is full of high-quality lantern oil.
+[18618]> red coin?This coin is made of a red metal.  It has two dots on one side.
+[18691]> corroded coin?This coin is somewhat corroded.  It has a triangle on one side.|shiny coinGThis coin is somehow still quite shiny.  It has a pentagon on one side.
+[18852]> concave coinWThis coin is slightly rounded, almost like a tiny bowl.  It has seven dots on one side.
+[18953]> blue coinAThis coin is made of a blue metal.  It has nine dots on one side.|teleporterHThis small device has a button on it and reads "teleporter" on the side.
+[19113]> business card@This business card has "synacor.com" printed in red on one side.
+[19192]> orb=This is a clear glass sphere about the size of a tennis ball.
+[19258]> mirrorvThis is a rather mundane hand-held mirror from the otherwise magnificent vault room.  What USE could it possibly have?
+[19384]> strange book
+[19397]> The cover of this book subtly swirls with colors.  It is titled "A Brief Introduction to Interdimensional Physics".  It reads:||Recent advances in interdimensional physics have produced fascinating|predictions about the fundamentals of our universe!  For example,|interdimensional physics seems to predict that the universe is, at its root, a|purely mathematical construct, and that all events are caused by the|interactions between eight pockets of energy called "registers".|Furthermore, it seems that while the lower registers primarily control mundane|things like sound and light, the highest register (the so-called "eighth|register") is used to control interdimensional events such as teleportation.||A hypothetical such teleportation device would need to have have exactly two|destinations.  One destination would be used when the eighth register is at its|minimum energy level - this would be the default operation assuming the user|has no way to control the eighth register.  In this situation, the teleporter|should send the user to a preconfigured safe location as a default.||The second destination, however, is predicted to require a very specific|energy level in the eighth register.  The teleporter must take great care to|confirm that this energy level is exactly correct before teleporting its user!|If it is even slightly off, the user would (probably) arrive at the correct|location, but would briefly experience anomalies in the fabric of reality|itself - this is, of course, not recommended.  Any teleporter would need to test|the energy level in the eighth register and abort teleportation if it is not|exactly correct.||This required precision implies that the confirmation mechanism would be very|computationally expensive.  While this would likely not be an issue for large-|scale teleporters, a hypothetical hand-held teleporter would take billions of|years to compute the result and confirm that the eighth register is correct.||If you find yourself trapped in an alternate dimension with nothing but a|hand-held teleporter, you will need to extract the confirmation algorithm,|reimplement it on more powerful hardware, and optimize it.  This should, at the|very least, allow you to determine the value of the eighth register which would|have been accepted by the teleporter's confirmation mechanism.||Then, set the eighth register to this value, activate the teleporter, and|bypass the confirmation mechanism.  If the eighth register is set correctly, no|anomalies should be experienced, but beware - if it is set incorrectly, the|now-bypassed confirmation mechanism will not protect you!||Of course, since teleportation is impossible, this is all totally ridiculous.
+[22093]> journal
+[22101]> Fireflies were using this dusty old journal as a resting spot until you scared them off.  It reads:||Day 1: We have reached what seems to be the final in a series of puzzles guarding an ancient treasure.  I suspect most adventurers give up long before this point, but we're so close!  We must press on!||Day 1: P.S.: It's a good thing the island is tropical.  We should have food for weeks!||Day 2: The vault appears to be sealed by a mysterious force - the door won't budge an inch.  We don't have the resources to blow it open, and I wouldn't risk damaging the contents even if we did.  We'll have to figure out the lock mechanism.||Day 3: The door to the vault has a number carved into it.  Each room leading up to the vault has more numbers or symbols embedded in mosaics in the floors.  We even found a strange glass orb in the antechamber on a pedestal itself labeled with a number.  What could they mean?||Day 5: We finally built up the courage to touch the strange orb in the antechamber.  It flashes colors as we carry it from room to room, and sometimes the symbols in the rooms flash colors as well.  It simply evaporates if we try to leave with it, but another appears on the pedestal in the antechamber shortly thereafter.  It also seems to do this even when we return with it to the antechamber from the other rooms.||Day 8: When the orb is carried to the vault door, the numbers on the door flash black, and then the orb evaporates.  Did we do something wrong?  Doesn't the door like us?  We also found a small hourglass near the door, endlessly running.  Is it waiting for something?||Day 13: Some of my crew swear the orb actually gets heaver or lighter as they walk around with it.  Is that even possible?  They say that if they walk through certain rooms repeatedly, they feel it getting lighter and lighter, but it eventually just evaporates and a new one appears as usual.||Day 21: Now I can feel the orb changing weight as I walk around.  It depends on the area - the change is very subtle in some places, but certainly more noticeable in others, especially when I walk into a room with a larger number or out of a room marked '*'.  Perhaps we can actually control the weight of this mysterious orb?||Day 34: One of the crewmembers was wandering the rooms today and claimed that the numbers on the door flashed white as he approached!  He said the door still didn't open, but he noticed that the hourglass had run out and flashed black.  When we went to check on it, it was still running like it always does.  Perhaps he is going mad?  If not, which do we need to appease: the door or the hourglass?  Both?||Day 55: The fireflies are getting suspicious.  One of them looked at me funny today and then flew off.  I think I saw another one blinking a little faster than usual.  Or was it a little slower?  We are getting better at controlling the weight of the orb, and we think that's what the numbers are all about.  The orb starts at the weight labeled on the pedestal, and goes down as we leave a room marked '-', up as we leave a room marked '+', and up even more as we leave a room marked '*'.  Entering rooms with larger numbers has a greater effect.||Day 89: Every once in a great while, one of the crewmembers has the same story: that the door flashes white, the hourglass had already run out, it flashes black, and the orb evaporates.  Are we too slow?  We can't seem to find a way to make the orb's weight match what the door wants before the hourglass runs out.  If only we could find a shorter route through the rooms...||Day 144: We are abandoning the mission.  None of us can work out the solution to the puzzle.  I will leave this journal here to help future adventurers, though I am not sure what help it will give.  Good luck!4abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+[25919]> dbqpwuiolxv8WTYUIOAHXVM
+[25943]> go
+[25946]> look
+[25951]> help
+[25956]> inv
+[25960]> take
+[25965]> drop
+[25970]> use 
+[26007]> green
+[26013]> red
+[26017]> yellow?As you enter the room, the symbol on the floor briefly flashes !.  The orb begins subtly glowing /As you enter the room, the orb briefly flashes @.  The number on the floor vibrates strangely beneath your feet.
+[26235]>   The orb seems to get heavier.
+[26267]>   The orb seems to get lighter.
+[26299]>   The orb shatters!|| As you approach the vault door, +the number on the vault door flashes black.)  The orb evaporates out of your hands.||+the number on the vault door flashes white!c  The hourglass has already run out.  It flashes black and flips over, restarting the flow of sand.
+[26584]>   The hourglass is still running!  It flashes white!  You hear a click from the vault door.  The orb evaporates out of hour hands.||
+[26717]> As you 
+[26725]> leave
+[26731]> enterV the room, the orb evaporates out of your hands!  It rematerializes on its pedestal.||
+[26824]> The vault door is sealed.|0
+[27481]> 1
+[28099]> "
+[28134]> "
+[28169]> !8
+[28173]> A
+[28178]> F
+[28180]> A
+[28185]> A
+[28189]> A
+[28192]> A
+[28196]> A
+[28201]> Ok
+[28235]> >
+[28302]> +
+[28400]> 3
+[28452]> 8
+[28509]> :
+[28620]> *
+[28709]> B
+[28776]> B
+[29544]> u
+[29666]> Y
+[29945]> g
