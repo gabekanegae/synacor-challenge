@@ -104,17 +104,17 @@ After over an hour of commenting some disassembled code and labeling more than a
 
 <p align="center"><img src="writeup-images/18.png"></p>
 
-At some point in the program, those integers were decrypted and turned into valid ASCII characters. And that had to happen early, as there were no readable strings other than the self-test ones. By logging the memory reads and writes, I locked in the decryption algorithm: addresses 1730 and 2125, the second one called twice for each memory address. I also found the upper and lower bounds for the addresses to be decoded: 6068 (at address 1727) and 30050 (at address 1755). Now I just had to extract that decryption algorithm and run it for all of those addresses. That's why the "self-test" took over 600k instructions to run!
+At some point in the program, those integers were decrypted and turned into valid ASCII characters. And that had to happen early, as there were no readable strings other than the self-test ones. By logging the memory reads and writes, I locked in the decryption algorithm: addresses 1730 and 2125, the second one called twice for each memory address. I also found the lower and upper bounds of the decoded addresses: 6068 (found at address 1727) and 30050 (found at address 1755). Now I just had to extract that decryption algorithm and run it for all of those addresses. That's why the "self-test" took over 600k instructions to run!
 
 <p align="center"><img src="writeup-images/19.png"></p>
 
-That's better! Although I'm not too sure how that helps me, other than finding "spoilers" of unseen locations like the Tropical Island, Tropical Cave and Vault (containing [elerium-115](https://xcom.fandom.com/wiki/Elerium)!), which appear to be related, as well as a new item: a journal that's about orbs, hourglasses and puzzles. Would that island be the secret teleportation destination, and where that journal is located? Hmm. No new passwords found when decrypting the memory, though. Also, I noticed that, although the decryption algorithm runs until address 30049, everything from address 26850 and beyond is not valid ASCII. I wonder what that is, gonna keep a mental note on that.
+That's better! Although I'm not too sure how that helps me, other than finding "spoilers" of unseen locations like the Tropical Island, Tropical Cave and Vault (containing [elerium-115](https://xcom.fandom.com/wiki/Elerium)!), which appear to be related, as well as a new item: a journal that's about orbs, hourglasses and puzzles. Would that island be the secret teleportation destination, and where that journal is located? Hmm. No new passwords found when decrypting the memory, though. I also noticed that, although the decryption algorithm runs until address 30049, everything from address 26850 and beyond is not valid ASCII. I wonder what that is, guess I'm gonna keep a mental note on that.
 
-A couple more hours getting more and more familiarized with the code, understanding how the print function works, how the strings are stored, and all that... just for fun, really. After I got tired of that, I figured I would get back on track.
+A couple more hours getting more and more familiarized with the code, understanding how the disassembled print function works, how the strings are stored, and all that... just for fun, really. After I got tired of that, I figured I would get back on track.
 
 ## 7. One Billion Years Cut Short
 
-As before, disabling the register self-check and modifying the contents of the eighth register triggers the "1 billion years" text, which, when going through my debug logs, I saw that it resulted in what looked like an infinite loop, filling the stack forever. It's pretty much the last instructions of the program, starting at address 6027.
+As before, disabling the register self-check and modifying the contents of the eighth register triggers the "1 billion years" text, which, when going through my debug logs, I saw that it resulted in what looked like an infinite loop, filling the stack forever. It's pretty much looping the last instructions of the program, starting at address 6027.
 
 <p align="center"><img src="writeup-images/20.png"></p>
 
@@ -138,9 +138,9 @@ Now, the instructions from the book made way more sense: "the confirmation mecha
 
 <p align="center"><img src="writeup-images/23.png"></p>
 
-Just as a side note, the code actually uses $0 as the first argument ("m") as well as to return the computed value, and $1 as the second argument ("n"). The stack is used once simply to store the value of $0 and restore it after a recursion is called.
+As a side note, the code actually uses $0 as the first argument ("m") as well as to return the computed value, and $1 as the second argument ("n"). The stack is used once simply to store the value of $0 and restore it after a recursion is called.
 
-Then, I fell back to the good old C language, which should give me way better performance than Python. My first thought to optimize the recursion was to implement a memoization technique, storing a table of previous values, independent to each k tried. Alongside that, I had to keep in mind that all math was modulo 32768, as well as the property from the Ackermann function that all subsequent function calls have an equal or smaller "m", so I wouldn't need a 32768x32768 memoization matrix (that would be over a billion values!).
+Then, I fell back to the good old C language, which would give me way better performance than Python. My first thought on optimizing the recursion was to implement a memoization technique, storing a table of previous values, independent to each k tried. Alongside that, I had to keep in mind that all math was modulo 32768, as well as the property from the Ackermann function that all subsequent function calls have an equal or smaller "m", so I wouldn't need a 32768x32768 memoization matrix (that would be over a billion values!).
 
 <p align="center"><img src="writeup-images/24.png"></p>
 
@@ -158,7 +158,7 @@ Back to the adventure game, then! I'm at the Tropical Island, a location spoiled
 
 Maybe there is a specific path, a sequence to match something? The number on the door: 30! I conclude that I have to go through the symbols until they form an arithmetic expression that equals 30. I just have to generate every single path and check which one fits. Python to the rescue, as well as Graph Theory!
 
-Buuuuut, it was actually not quite that. Per the journal and by trial-and-error, I found out that: you are allowed to go back to a previous room, so listing all paths is not trivial; there's a "time" limit, as in, maximum path length of 12 rooms; the orb shatters whenever the current total is 0 or less, as well as 32768 or more, and everytime you go back to the pedestal (room "22") or the vault door (room "1"), the orb disappears. So, with those restrictions applied, I wrote some code to just run around randomly until one of those restrictions are broken or a correct path is found. And, after a couple seconds, there it was:
+Buuuuut, it was actually not quite that. Per the journal and by trial-and-error, I found out that: you are allowed to go back to a previous room, so listing all paths is not trivial; there's a "time" limit, as in, maximum path length of 12 rooms; the orb shatters whenever the current total is 0 or less, as well as 32768 or more; and everytime you go back to the pedestal (room "22") or the vault door (room "1"), the orb disappears. So, with those restrictions applied, I wrote some code to just run around randomly until one of those restrictions are broken or a correct path is found. And, after a couple seconds, there it was:
 
 <p align="center"><img src="writeup-images/27.png"></p>
 
@@ -176,7 +176,7 @@ Inside the vault, all the riches (also spoiled before, hehehe), and... a mirror?
 
 <p align="center"><img src="writeup-images/30-password.png"></p>
 
-And that code isn't being accepted either. Have I, again, solved something not the way it was supposed to? Wait, all the characters are symmetrical, and I'm "reading the code from a mirror"... I'll just reverse the password string and... not yet. Huh. After a couple more minutes of head scratching, I noticed there was a "q" in my password, which, well, isn't symmetric, but, when mirrored, turns into a "p"! That was it, the final password: reverse the string and swap "p"s and "q"s.
+And that code isn't being accepted either. Have I, again, solved something not the way it was supposed to? Wait, all the characters are symmetrical, and I'm "reading the code from a mirror"... I'll just reverse the password string and... not yet. Huh. After a couple more minutes of head scratching, I noticed there was a "q" in my password, which, well, isn't symmetric, but, when mirrored, turns into a "p"! That was it, the final password: reverse the string and swap "p"s and "q"s, as well as "b"s and "d"s.
 
 ## 10. The End
 
