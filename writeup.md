@@ -60,7 +60,7 @@ I quickly hacked a savefile-esque feature, so I could store my previous commands
 
 <p align="center"><img src="writeup-images/10.png"></p>
 
-Using my freshly implemented save states, I reached a "twisty alike of little passages", and by navigating via trial-and-error, I found the fifth password!
+Using my freshly implemented save states, I reached some ["twisty little passages, all alike"](https://en.wikipedia.org/wiki/Colossal_Cave_Adventure), and by navigating via trial-and-error, I found the fifth password!
 
 <p align="center"><img src="writeup-images/11-password.png"></p>
 
