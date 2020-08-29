@@ -158,7 +158,7 @@ Back to the adventure game, then! I'm at the Tropical Island, a location spoiled
 
 Maybe there is a specific path, a sequence to match something? The number on the door: 30! I conclude that I have to go through the symbols until they form an arithmetic expression that equals 30. I just have to generate every single path and check which one fits. Python to the rescue, as well as Graph Theory!
 
-Buuuuut, it was actually not quite that. Per the journal and by trial-and-error, I found out that: you are allowed to go back to a previous room, so listing all paths is not trivial; there's a "time" limit, as in, maximum path length of 12 rooms; the orb shatters whenever the current total is 0 or less, as well as 32768 or more; and everytime you go back to the pedestal (room "22") or the vault door (room "1"), the orb disappears. So, with those restrictions applied, I wrote some code to just run around randomly until one of those restrictions are broken or a correct path is found. And, after a couple seconds, there it was:
+Buuuuut, it was actually not quite that. Per the journal and by trial-and-error, I found out that: you are allowed to go back to a previous room, so listing all paths is not trivial; there's a "time" limit, as in, maximum path length of 12 rooms; the orb shatters whenever the current total is 0 or less, as well as 32768 or more; and everytime you go back to the pedestal (room "22") or the vault door (room "1"), the orb disappears. So, with those restrictions applied, I wrote some code to just run around randomly until one of those restrictions is broken or a correct path is found. And, after a couple seconds, there it was:
 
 <p align="center"><img src="writeup-images/27.png"></p>
 
